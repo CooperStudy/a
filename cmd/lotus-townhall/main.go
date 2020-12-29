@@ -19,7 +19,7 @@ import (
 	"github.com/filecoin-project/lotus/lib/blockstore"
 )
 
-var topic = "/star/headnotifs/"
+var topic = "/fil/headnotifs/"
 
 func init() {
 	genBytes := build.MaybeGenesis()
